@@ -19,9 +19,20 @@ h1 {
 
 }
 
+.middle {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .half-width {
     width: 50%;
     padding-left: 5%;
+}
+
+.middle>.half-width {
+    padding-right: 5%;
 }
 
 .half-width img {
